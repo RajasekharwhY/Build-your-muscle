@@ -1,0 +1,28 @@
+1.Static classes and static members : 
+=====================================
+Static clasess can not be instanciated. In other words you can not use NEW keyword to create instance of a static class.
+You access the members of a static class by using class name.
+
+For example, if you have a static class that is named Utility that has a public method named 
+MethodA, you call the method as shown in the following example:
+
+Utility.MethodA();  // Example Math class in dot net framework. All the methods of Math class does not depends 
+on instance variables.
+
+A non-static class can have both static and non-static members so that the static members
+apply to the class, whereas the non-static members apply to the instances of that class.
+
+
+2.Sealed classes and Sealed Members :
+=====================================
+Sealed class declaration restricts the creation of derieved object. Similarly a sealed method can not be 
+override. A normal class can have sealed methods, suppose when you derieve the normal class whcih have sealed members you can not override 
+them in derieved class. 
+
+3.Const and Readonly Differences    : The const keyword is used for a value if you are not intended to chage that value through out the 
+=====================================
+Application. Ex : Pi :3.14 the value of PI Never changes. The readoly keyword is little different from Const. Const value is assigned 
+during the declaration, For readonly the value can be assigned during run time in Constructor. in a class multiple constructors can be 
+defined with various paramters, and we can assign the readonly values in constructor. 
+
+Const is a compile time value assignment and ReadOnly is a run time value assignment.
