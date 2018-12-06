@@ -1,2 +1,20 @@
 Understanding Arrays in c#:
 ---------------------------
+1. Searching :
+Binary search methods:(For searching sorted array)
+  Array.BinarySearch(Array, Object) --> 
+  Array.BinarySearch(Array, Object, Icomparer) -->
+For Searching unsorted Arrays:
+IndexOf/LastIndexOf
+Find/FindLast/FindIndex/FindLastIndex/FindAll/Exists/TrueForAll - for searching unsorted arrays for Item(S) that satisfies 
+the given predicate
+
+2. Sorting: Array.Sort requires that the elements in the arry implement IComparable. This means most built in types like int
+are order by defalut. If the elements are not intrisically comparable, or you want to override the default ordering, you must 
+provide Sort with a custom comparision provider that reports on the relative position of two elements. 
+
+3. Reversing Elements
+
+4. Copying 
+
+5. Converting and Resizing
