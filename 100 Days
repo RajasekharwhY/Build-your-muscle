@@ -18,3 +18,6 @@ provide Sort with a custom comparision provider that reports on the relative pos
 4. Copying 
 
 5. Converting and Resizing
+
+Usage of Action delegate in Array.ForEach method.
+you can pass the action delegate and pass it to a Array Object to manipulate each element of the data. 
