@@ -1,4 +1,4 @@
-Ninject.web.common - it is a base extenion for all ther web extensions. and provides basic infrastructure for all other web type 
+Ninject.web.common - it is a base extenion for all ther web extensions (This extension is not intended to be used standalone. At least one is required!). and provides basic infrastructure for all other web type 
 extensions (Ninject.web.Mvc, Ninject.Web.WebApi, Ninject.web) 
 ---------------------------------
 Couple of Ninject extensions like 
