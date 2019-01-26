@@ -1,1 +1,8 @@
-Extenisons are 
+Ninject.web.common - it is a base extenion for all ther web extensions. and provides basic infrastructure for all other web type 
+extensions (Ninject.web.Mvc, Ninject.Web.WebApi, Ninject.web) 
+---------------------------------
+Couple of Ninject extensions like 
+----------------------------------
+Ninject.web.Mvc -- Allows integration between Ninject and MVC
+Ninject.web -- Allows integration between Ninject and ASP.NET WebForms
+Ninject.Web.WebApi --Allows integration between Ninject and WEBAPI
