@@ -6,3 +6,19 @@ Couple of Ninject extensions like
 Ninject.web.Mvc -- Allows integration between Ninject and MVC
 Ninject.web -- Allows integration between Ninject and ASP.NET WebForms
 Ninject.Web.WebApi --Allows integration between Ninject and WEBAPI
+
+How NInject constructs types for you ? 
+--------------------------------------
+When asked to instanciate an object for you, Ninject will look at types available 
+public constructors and pick the one with most parameters it knows how to resolve. 
+or parameter less constructor if there are not any suitable ones.(there is an attribute
+you can overwrite this.)
+constructor injection:
+----------------------
+Constructor injection is the priamary pattern used for resolving objects (instanciating)
+while resolving specific types it apples following rules.
+1. If a constructor has [Inject] attribute. it is derectly use this, you can not provide [Inject] attribute to more than one 
+constructors (it will throw not supported exception.)
+2. If no constructor has [Inject] attribute, Ninject will select the most of the parameters Ninject will resolve (understands 
+how to resolve.12qwe54  1). 
+3. If no constructors are defined , Ninject will select the default parameter less constructor. 
