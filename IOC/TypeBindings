@@ -1,0 +1,11 @@
+What are type bindings.
+The NInejct contrainer, when ever NInject encounters a dependency on any interface (exmple : IWeapon)it will resolve the instance of it (Ex
+: Sword) 
+and add intect it. this dependency reoslving process is recursive one.
+
+Registering more than one type for a binding for a service : contextual service 
+---------------------------------------------------------------------------------
+it is possible to have multiple types for a serive based on context.
+
+Registering more than one type for a binding for a service : plugin model 
+----------------------------------------------------------------------------
