@@ -34,4 +34,17 @@ https://github.com/ninject/ninject/wiki/Contextual-Binding
 
 Registering more than one type for a binding for a service : plugin model 
 ----------------------------------------------------------------------------
-This mechanism allows you get all the implementations of a given service. 
+This mechanism allows you get all the implementations of a given service. This mechanism allows you to get a
+set of related service implementations at the same time – this is not contextual binding. 
+You use this mechanism by requesting a IEnumerable<T>, T[] array or List<T> in the target
+class Warrior 
+{
+    readonly IEnumerable<IWeapon> _weapons;
+    public Warrior( IEnumerable<IWeapon> weapons) {
+        _weapons=weapons;
+    }
+    public void Attack(string victim) {
+        foreach(var weapon in _weapons) 
+            Console.WriteLine(weapon.Hit(victim));
+    }
+}
