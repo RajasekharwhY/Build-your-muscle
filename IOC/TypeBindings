@@ -6,6 +6,32 @@ and add intect it. this dependency reoslving process is recursive one.
 Registering more than one type for a binding for a service : contextual service 
 ---------------------------------------------------------------------------------
 it is possible to have multiple types for a serive based on context.
+In this case, the appropriate implementation that should be used depends on the "target context" 
+for which the service type is being resolved and the "binding metadata" on each binding. Up until this 
+
+binding metadata:
+-----------------
+In your type bindings, you register multiple type bindings for the same service type, but add binding metadata so you’ll be able to indicate which one is appropriate in your condition later:-
+Bind<IWeapon>().To<Shuriken>().Named("Strong");
+Bind<IWeapon>().To<Dagger>().Named("Weak");
+
+Target Context :
+-----------------
+At the target location, you indicate the name you want to use in the given context:-
+
+class WeakAttack {
+    readonly IWeapon _weapon;
+    public WeakAttack([Named("Weak")] IWeapon weakWeapon){
+        _weapon = weakWeapon;
+    }
+    public void Attack(string victim){
+        Console.WriteLine(_weapon.Hit(victim));
+    }
+}
+you can also find ohther "Other Constrained Resolution mechanisms"
+                          =========================================
+https://github.com/ninject/ninject/wiki/Contextual-Binding
 
 Registering more than one type for a binding for a service : plugin model 
 ----------------------------------------------------------------------------
+This mechanism allows you get all the implementations of a given service. 
