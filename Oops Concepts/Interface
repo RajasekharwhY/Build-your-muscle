@@ -1,0 +1,18 @@
+By defining interfaces we can design components decouple. 
+
+A good example is if you have 3 classes ( customer, products and orders) defined in one project (Market prj). and you want to design the LogService which 
+will handle the logging of all the classes (customers, products and orders) ( Market.common prj) 
+
+Market project is referring Market.Common project.  Assuming All 3 classes implements Log metthod we can write all those classes information 
+in logservice. But we should not reference those classes in .common project. if we reference  then it will be a circular reference. 
+
+Assuming logservice class in (.common ) is implemetning writing the log information. 
+
+Public Class LogSerivce 
+{
+ 
+ void WriteToLog(IList<Oject> items); // Items can be Customerrs, Products, Orders ... 
+ { 
+    
+ }
+}
