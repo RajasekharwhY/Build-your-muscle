@@ -13,6 +13,26 @@ Public Class LogSerivce
  
  void WriteToLog(IList<Oject> items); // Items can be Customerrs, Products, Orders ... 
  { 
-    
+    foreach (item in items) 
+    { 
+        item.Log // You can not accessteh log as object don't have log method.
+        // to avoid this we can try casting the object as cutromer like 
+        // var custItem = item as customer -> This will not be a good idea because you need to reference customer 
+        // object and (.common class does not have a reference to business object Customer, Product, Orders
+        // you need to reference all other types which you want to log
+    }
  }
+}
+// The best solution can be 
+1. Create a Interface ILogable in  .Common Projet with Log method 
+2. since Market project has already reference to .comon project all classes in market project have access to Ilogable
+3. Customer, Product and Order class can Implement Ilogable interface 
+4. collection.Add ( item As Ilogable) 
+void WriteToLog(IList<IList> items); // Items can be Customerrs, Products, Orders ... 
+ { 
+    foreach (item in items) 
+    { 
+      Item.Log() ;  // Log class has different shape in each implementing class Customer, Product and Order class. 
+      // This is called Interface polymorphism.
+    }
 }
