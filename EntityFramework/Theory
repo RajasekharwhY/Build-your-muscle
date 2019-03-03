@@ -1,0 +1,4 @@
+E.F 6:
+------
+By defalut saveChanges() method of dbcontext updates are considered as a single unit of work and completes in a transaction. 
+Different states of Entities: Add, modified, deleted, unchanged, detached.
