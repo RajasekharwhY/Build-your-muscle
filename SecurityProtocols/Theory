@@ -1,0 +1,5 @@
+Security protocols OAuth 2.0, 
+Security protocols OpenID Connect 
+Security protocols JWT tokens
+
+Next, you will implement login, logout, and signup with React and Auth0.
