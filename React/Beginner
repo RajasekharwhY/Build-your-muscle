@@ -24,6 +24,19 @@ so finally learn react and apply any where...
 React DOM : There are different react renders ... serverside rendering you can strart with small portion 
 of server side and implement and move to bigger implementations... so you can do risk free moment to React..
 
+Developer experience :  
+----------------------
+simple Api and easy to learn.There are very few concepts to master. it is very small and 
+straight forword so that developers no need to depend on docs.so it just fits in your head.
+
+JSX compiles down to Javascript (for html element --> react.createElement). prefer using jsx as it almost looks like HTML..
+Treditional javascript frameworks like Angular, ember, view try to enhace the HTML or ( make the hTMl more powerful)
+like adding looping ( ex: angular ng-for, ng-if ng-else, ng-show etc...)
+but react exactly did the opposite ..It trys to handle html with Javascript available functions to fullest (you dont need to
+learn new framework specific, new keywords, syntax, for conditionals looping..etc.. for example javascript already has a 
+function called map to iterate over the loop. React encourages to be better at Javascript in doing so you also get better 
+at React.. 
+ 
 
 Community support :
 -------------------
