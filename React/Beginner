@@ -36,7 +36,16 @@ but react exactly did the opposite ..It trys to handle html with Javascript avai
 learn new framework specific, new keywords, syntax, for conditionals looping..etc.. for example javascript already has a 
 function called map to iterate over the loop. React encourages to be better at Javascript in doing so you also get better 
 at React.. 
- 
+
+In react each component is atomic ..that means each componenet works independently (works in isolation). if you make a mistake
+you get a detailed error message in the browser. You will get compile time message.. 
+IF you want to debug the code it is easy to set a break point and debug the code. 
+
+Create React App : Most popular way to create React apps. 
+
+Corporate Investment: 
+---------------------
+
 
 Community support :
 -------------------
