@@ -1,0 +1,42 @@
+1. what makes react special ? and what makes choosing react over the compitation ? 
+trade off's in react design ? what you are giving up of things if you want to go with react ? 
+
+History : Created by facebook, in 2011, later used by Instagram in 2012, 2013 open sourced .
+in 2014 many outside companies adapted to React so this lead to creat React Native in 2015 (you can create native IOS applications 
+for IOS and Android)
+
+Whats now ? over 30 k components used by facebook and fb used react native for mobile development. now many of the fortune
+500 compnaines utilise react in their production environment. 
+
+Why React: 
+----------
+Flexibility :
+-------------
+React is a library not a framework 
+where react created, it is created for single focus in mind to create componenets for web applciations.
+You can create V.R applications using react VR 
+Mobile applications using React Native
+Desktop applications using tool Electron 
+server rendering using Next JS ...
+so finally learn react and apply any where... 
+
+
+React DOM : There are different react renders ... serverside rendering you can strart with small portion 
+of server side and implement and move to bigger implementations... so you can do risk free moment to React..
+
+
+Community support :
+-------------------
+Performace : 
+-------------
+Testability :
+--------------
+why not react ? 
+------------------
+what is the 
+
+Key componnets 
+
+5 key decessions ? 
+
+Tradeoffs ? weakness ? 
