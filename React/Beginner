@@ -51,7 +51,17 @@ Community support :
 -------------------
 Performace : 
 -------------
-Testability :
+Javascript is fast, But updating the DOM is expensive,  So the react team figured efficient way to update the DOM.
+Before react most frame works un intelligently update the DOM, to reflect the State, In most cases this lead to often lead to 
+significantly update the complete dom enven though minor change is there.
+
+React monitors the each component state, when a component state changes react compares the existing DOM state and new DOM state looks 
+like and it determines the most effective way to update the DOM. THe comparison happnes in memory so the updates are very fast. 
+React with React DOM only ~35k (There are much lesser size libraries availalbe, with little less funcitonality than react)
+-------------
+Testability : Testing a front end is hard, It is designed as friendly for automated testing. If you are using create react app then 
+testing is already configured for you. You dont need browser to test react apps , the testing you can perform in-memory.
+(so they are fast), jest and engime you can write react tests.
 --------------
 why not react ? 
 ------------------
