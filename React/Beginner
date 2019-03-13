@@ -29,7 +29,7 @@ Developer experience :
 simple Api and easy to learn.There are very few concepts to master. it is very small and 
 straight forword so that developers no need to depend on docs.so it just fits in your head.
 
-JSX compiles down to Javascript (for html element --> react.createElement). prefer using jsx as it almost looks like HTML..
+JSX compiles down to Javascript (For HTML element --> react.createElement). prefer using jsx as it almost looks like HTML..
 Treditional javascript frameworks like Angular, ember, view try to enhace the HTML or ( make the hTMl more powerful)
 like adding looping ( ex: angular ng-for, ng-if ng-else, ng-show etc...)
 but react exactly did the opposite ..It trys to handle html with Javascript available functions to fullest (you dont need to
@@ -61,14 +61,34 @@ React with React DOM only ~35k (There are much lesser size libraries availalbe, 
 -------------
 Testability : Testing a front end is hard, It is designed as friendly for automated testing. If you are using create react app then 
 testing is already configured for you. You dont need browser to test react apps , the testing you can perform in-memory.
-(so they are fast), jest and engime you can write react tests.
+(so they are fast), jest (Is created by Facebook - This provides the Instant feedback, so you can save lot of 
+development time) and enzyme (developed by airBNB )you can write react tests.
+============
+Tradeo ffs :
+-----------
+1. Framework/Library - React is library - Here is the advantage of choosing a framework approach - contains more clear 
+opinions, so you dont have to waste time on decision making, so you can avoid decision fatigue, enforce more consistency.
+
+How ever react libary has some clear advantages, it is so small (~35k) so that you can sprinkle it on exisitng applications.
+slowly you can migrate all the app, even server side rendered app. Suppose you have already existing app build on Ruby or c# or java
+you can use react to replace single componnet on the page. THis how face book slowly migrated from server side rendered PHP application 
+to react. 
+
+Use case : you can pull in from the list what you need (Other libraries like routing, testing, internatilisation etc... )
+
+2. concise vs Explict:
+---------------------
+3.
+4.
+5.
+6.
+
 --------------
 why not react ? 
-------------------
-what is the 
-
-Key componnets 
+--------------
+What is the Key componnets ?
 
 5 key decessions ? 
 
-Tradeoffs ? weakness ? 
+
+weakness ? 
