@@ -1,9 +1,12 @@
 1. what makes react special ? and what makes choosing react over the compitation ? 
 trade off's in react design ? what you are giving up of things if you want to go with react ? 
 
-History : Created by facebook, in 2011, later used by Instagram in 2012, 2013 open sourced .
-in 2014 many outside companies adapted to React so this lead to creat React Native in 2015 (you can create native IOS applications 
-for IOS and Android)
+History :  in 
+2011: Created by facebook,
+2012 : later used by Instagram in
+2013 open sourced
+2014 many outside companies adapted to React so this lead to creat React Native 
+2015 (react native in 2015 - you can create native IOS applications for IOS and Android)
 
 Whats now ? over 30 k components used by facebook and fb used react native for mobile development. now many of the fortune
 500 compnaines utilise react in their production environment. 
@@ -12,34 +15,33 @@ Why React:
 ----------
 Flexibility :
 -------------
-React is a library not a framework 
-where react created, it is created for single focus in mind to create componenets for web applciations.
-You can create V.R applications using react VR 
-Mobile applications using React Native
-Desktop applications using tool Electron 
-server rendering using Next JS ...
-so finally learn react and apply any where... 
-
+React is a library not a framework, where react created, it is created for single focus in mind to create componenets for web applciations.
+You can create 
+1.V.R applications using react VR 
+2.Mobile applications using React Native
+3.Desktop applications using tool Electron 
+4.Server rendering using Next JS ...
+So finally learn react and apply any where... 
 
 React DOM : There are different react renders ... serverside rendering you can strart with small portion 
 of server side and implement and move to bigger implementations... so you can do risk free moment to React..
 
 Developer experience :  
 ----------------------
-simple Api and easy to learn.There are very few concepts to master. it is very small and 
-straight forword so that developers no need to depend on docs.so it just fits in your head.
+Simple Api and easy to learn.There are very few concepts to master. it is very small and 
+straight forword so that developers no need to depend on docs.So it just fits in your head.
 
 JSX compiles down to Javascript (For HTML element --> react.createElement). prefer using jsx as it almost looks like HTML..
 Treditional javascript frameworks like Angular, ember, view try to enhace the HTML or ( make the hTMl more powerful)
-like adding looping ( ex: angular ng-for, ng-if ng-else, ng-show etc...)
+like adding looping and conditions ( ex: angular ng-for, ng-if ng-else, ng-show etc...)
 but react exactly did the opposite ..It trys to handle html with Javascript available functions to fullest (you dont need to
 learn new framework specific, new keywords, syntax, for conditionals looping..etc.. for example javascript already has a 
 function called map to iterate over the loop. React encourages to be better at Javascript in doing so you also get better 
 at React.. 
 
 In react each component is atomic ..that means each componenet works independently (works in isolation). if you make a mistake
-you get a detailed error message in the browser. You will get compile time message.. 
-IF you want to debug the code it is easy to set a break point and debug the code. 
+you get a detailed error message in the browser. You will get compile time message.If you want to debug the code it is 
+easy to set a break point and debug the code. 
 
 Create React App : Most popular way to create React apps. 
 
