@@ -1,0 +1,30 @@
+In order to query using Entity framework 
+
+first you need a Model (You can create model using Entity Data model)
+
+second you need context (class) your application can interact with Enitties
+
+One of the recomended way to work with DBContext is define a class that is derieved from DBContext
+and exposes DbSet Properties collection.
+
+Life time :
+-------------
+Life time of hte context begins when the context is created and ends when the context is disposed
+or garbage collected.
+public void UseProducts()
+{
+    using (var context = new ProductContext())
+    {     
+        // Perform data access using the context
+    }
+}
+Connection :
+--------------
+By default, the context manages connections to the database.the context opens and closes the 
+connection as needed.
+
+Configuration :  
+
+Performace : cold query / warm query 
+cold query : first time it takes time (cold query)
+warm query : from second time onwards the query will take less time.
