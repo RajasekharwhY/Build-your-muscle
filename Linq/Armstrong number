@@ -1,0 +1,50 @@
+
+
+public static class intExt
+{
+
+public static IEnumerable<int> Digits(this int number)
+{
+	return number.ToString().ToCharArray().Select(c => Convert.ToInt32(c.ToString()));
+
+}
+
+public static IEnumerable<int> Cube (this IEnumerable<int> number)
+{
+	return number.Select(c => c*c*c);
+}
+
+public static int Cube(this int number)
+{ 
+     return number*number*number;
+}
+
+// Aggreate is a new thing, if you want to work on each element of 
+// input array and return it take lamda expression 
+// (a,b) => a* b -- a is first orgument and b is second orgument 
+// in the second iteration a is a result of first iteration and b is the trird orgument. 
+public static int Product (this IEnumerable<int> numbers)
+{ 
+     return numbers.Aggregate((a,b)=> a* b);
+
+}
+}
+// DSL -> Domain specific language
+// Define other methods and classes here
+void Main()
+{
+	// Armstrong number
+	int inputNumber = 153;
+	int total = inputNumber.Digits().Cube().Sum();
+	total.Dump("Armstrong number");
+	// Dudeney number
+	int dudeneyNumber = 512;
+	int result = dudeneyNumber.Digits().Sum().Cube();
+	bool results = dudeneyNumber == result ?  true :false;
+	results.Dump("Dudeney number");
+	// sum product number
+	int sumProductNumber = 34;
+	int resultSumProductNumber = sumProductNumber.Digits().Sum()*sumProductNumber.Digits().Product();
+	bool sumProductResult =  sumProductNumber == resultSumProductNumber ? true: false;
+	sumProductResult.Dump("Sum Product Result");
+}
