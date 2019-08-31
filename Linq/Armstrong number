@@ -3,6 +3,9 @@
 // Input on IEnumerable and Int and return type as Int and Int 
 // Aggreate function takes first two values in a serees and operates on loop. 
 // each time the the result is assinged to a and b will the next value in the collection or series. 
+
+// when creating extension methods ,,, if you want to retun as int like (avg, sum, min , max, average) etc...
+// Aggregate funciton is very handy function. 
 public static class intExt
 {
 
