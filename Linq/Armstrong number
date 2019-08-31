@@ -1,5 +1,8 @@
 
-
+// Extension methods
+// Input on IEnumerable and Int and return type as Int and Int 
+// Aggreate function takes first two values in a serees and operates on loop. 
+// each time the the result is assinged to a and b will the next value in the collection or series. 
 public static class intExt
 {
 
