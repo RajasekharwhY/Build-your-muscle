@@ -1,0 +1,42 @@
+camps have talks.
+for camps the api looks like below : 
+
+api/camps
+api/camps/rich2019 => to access individual talk  == camps controller
+
+api/camps/atl2019/talks ==
+api/camps/atl2019/talks/1  ==  Talks contoller this will handle in the context of camps controller 
+
+[routePrefix(api/camps/{moniker}/talks)]
+TalksController()
+{
+}
+
+// we need to include the moniker to get all the talks availalbe for that 
+// perticular camp.
+[HttpGet]
+IHttpActionResult Get(string moniker)
+{
+}
+
+Get an Individual talk:
+[route("{id:int}")] ==> from the routePrefix we get all the info related, id is integer constraint.
+// like moniker [routePrefix(api/camps/{moniker}/talks)]
+IHttpActionResult Get(string moniker, int id)
+{
+}
+
+///////////////////////
+Implementing a Post 
+///////////////////////
+[route()]
+IHttpActionResult Post(string moniker, TalkModle talkModel)
+{
+}
+///////////////////////
+Implementing Put
+////////////////////////
+[route("{id:int}")]  ==> moniker will come from the main route.
+IHttpActionResult Put(string moniker, int id, TalkModle talkModel)
+{
+}
