@@ -1,0 +1,9 @@
+primary authentication types web Api's do :
+--------------------------------------------
+1. Cookies
+2. Basic Authentication
+3. Token Auth : most commonly used
+         1. Mix of both secure and simplicity 
+         2. secure more than cookies, they tend to expire more faster
+4. OAuth 
+          1. Third party Authenication.
