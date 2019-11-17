@@ -1,2 +1,9 @@
 https://app.pluralsight.com/course-player?clipId=934c961d-3536-4928-b3ce-e00f05b0d0c4
 Designing webapi -> last module..
+
+Detailed description about Token based authentication.
+https://app.pluralsight.com/library/courses/webapi-v2-security/table-of-contents
+
+before going to above token based authentication you may read about OAuth2 protocol. 
+from below course:
+https://app.pluralsight.com/library/courses/oauth2-json-web-tokens-openid-connect-introduction/table-of-contents
