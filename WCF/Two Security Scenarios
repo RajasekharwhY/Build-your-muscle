@@ -1,0 +1,11 @@
+Intranet Scenario:
+------------------
+Clients are within the firewall
+Typically uses TCP Protocol.
+Built In windows based Authentication and Authorisation.
+
+Internet Scenario:
+------------------
+Clients are out side of Firewalls
+Typically handled by HTTP Binding
+Use custom certificate protected authentication/authorisation. 
