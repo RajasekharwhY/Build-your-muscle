@@ -1,0 +1,11 @@
+Identicies in Intranet and Internet scenario:
+----------------------------------------------
+Client Identity => Is the caller to the WCF service. 
+we are going to see 3 various Identities in both Intranet and Internt scenarios
+
+3 Identities are 
+-----------------
+1. Token/Host Identity (Identity of a Host Process - Identity used to access resourses (filesystem ,registry, DbAccess) 
+2. Principle Identity
+3. Windows Identity 
+
