@@ -12,3 +12,6 @@ we are going to see 3 various Identities in both Intranet and Internt scenarios
 For Browser based Intranet applications 
 the Principle Identity/clinet Idetnity are IIS/ AppPool, you need to do soft Impersonation. 
 Actullay user(MACHINENAME/RAJA) is calling from broser (Assuming it is hosted on IIS). 
+
+WCF END TO END: Securing Services (Plural site course) 
+-----------------------------------
