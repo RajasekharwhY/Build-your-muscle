@@ -9,3 +9,6 @@ we are going to see 3 various Identities in both Intranet and Internt scenarios
 2. Principle Identity
 3. Windows Identity 
 
+For Browser based Intranet applications 
+the Principle Identity/clinet Idetnity are IIS/ AppPool, you need to do soft Impersonation. 
+Actullay user(MACHINENAME/RAJA) is calling from broser (Assuming it is hosted on IIS). 
