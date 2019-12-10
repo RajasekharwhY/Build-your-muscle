@@ -8,3 +8,5 @@ its way of electonically moving data from one location to another location.
 ## Data networking => 
 moving data from one device to anohter device.
 
+![Image of Yaktocat](https://github.com/RajasekharwhY/Build-your-muscle/blob/master/networking/TelephoneCommunication.png)
+
