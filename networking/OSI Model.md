@@ -23,7 +23,7 @@ IPAddress and IP routing allows us to end to end communciation.
 So Ethernet and (IPAddressing, IPRouting) work very closly with each other
 to get messages from one device to anther device. This is called the Network layer.
 
-## transport layer
+## Transport layer
 Transmission control protocol:
 it is like setting up a session between sender and reciever.
 in out telephone communication, sender can not directly send the message, 
