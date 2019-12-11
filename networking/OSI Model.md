@@ -3,10 +3,9 @@ This is implemented in 1970, and some layers are depreciated, but this is one of
 most important concepts you need to lean to understand data networking.
 
 ## Physical layer: (twisted pair cabelling, coax cable, fiber otpics cable)
-for wireless it is electro magnatic spectrum (Air) in order to transfer.
-you can not take bunch of copper wire and make a twisted pair of cabelling.
-you need to follow some protocols to design the twisted pair of cabelling. 
-
+For wireless it is electro magnatic spectrum (Air) in order to transfer data via wireles.
+For wired connections, you can not take bunch of copper wires and make a twisted pair of cabelling.
+You need to follow some protocols to design the twisted pair of cabelling. 
 Physical layer is used to connect to all of our devices in network. 
 
 ## Datalink layer:
