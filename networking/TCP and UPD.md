@@ -11,6 +11,17 @@
       and layer 7 to send the original message 
    6. So with TCP we have a way of navigating the conversation like Yes I got what you wnat , no please repeat one more time
    what you want..
+
+## Transort layer addressing: Port Numbers
+1. At transport layer we are using port numbers To identify typically an application layer protocol that is beeing used.
+2. In TCP or UDP there is always a souce port number and destination port number, in the segment header
+3. These port numbers are devided in to differnt catogiries 
+    * Server port numbers (Well known and Registered port numbers)
+    * Client port numbers (Ephermeral port numbers - Ephermeral means temporary port numbers)
+    * Well known port numbers (0 -1023)
+    * Registerd port numbers (1024 - 49,151)
+    * Ephermeral port numbers (49,152 - 65,535)
+
   
 * User Datagram Protocol.
 
