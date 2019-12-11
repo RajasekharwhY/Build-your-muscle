@@ -1,6 +1,6 @@
 ## Transport Layer Protocol
 * Transmission control protocol.
-  1.Tcp is much like a 3 way handshake 
+  1. Tcp is much like a 3 way handshake 
   2. Client sends syn message to server 
   3. Server sends message syn ack to client (syn recieved and acknowledged)
   4. Now Client sends message (Ack - acknowledged) to server 
