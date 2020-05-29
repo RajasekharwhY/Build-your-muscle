@@ -4,3 +4,13 @@ EGG MALAI MASALA - >
   
   Tikka : what is tikka ? Tikka masala (tikka marination ?) 
   https://www.youtube.com/watch?v=B42mQAy-CS8
+
+## salad 
+  ceser salad 
+  greek salad 
+  
+## chipotle bowl 
+https://www.youtube.com/watch?v=PNAm7z9gOzk
+
+Mexican rice : Mexican Rice Recipe
+https://www.youtube.com/watch?v=yQlVJAx5kBk
