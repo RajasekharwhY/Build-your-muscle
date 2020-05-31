@@ -14,3 +14,6 @@ https://www.youtube.com/watch?v=PNAm7z9gOzk
 
 Mexican rice : Mexican Rice Recipe
 https://www.youtube.com/watch?v=yQlVJAx5kBk
+
+## arvi (chamagaddala pulusu)
+https://www.youtube.com/watch?v=gJXj9t5SEQY
