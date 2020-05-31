@@ -10,12 +10,36 @@ EGG MALAI MASALA - >
   greek salad 
   
 ## chipotle bowl 
-https://www.youtube.com/watch?v=PNAm7z9gOzk
+
 
 Mexican rice : Mexican Rice Recipe
 https://www.youtube.com/watch?v=yQlVJAx5kBk
 
+
+| Indian Kurmas | Description |
+| --- | --- |
+| Kaju Kurma | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
 ## arvi (chamagaddala pulusu)
-https://www.youtube.com/watch?v=gJXj9t5SEQY
+
 
 ## Kaju kurma
+
+| Mexican | Description |
+| --- | --- |
+| chipotle bowl | https://www.youtube.com/watch?v=PNAm7z9gOzk |
+| Mexican rice  | https://www.youtube.com/watch?v=gJXj9t5SEQY |
+
+| Italian | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
+
+
+| Salads | Description |
+| --- | --- |
+| ceser salad | List all new or modified files |
+| greek salad | Show file differences that haven't been staged |
+
