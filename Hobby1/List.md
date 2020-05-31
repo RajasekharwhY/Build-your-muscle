@@ -18,7 +18,7 @@ https://www.youtube.com/watch?v=yQlVJAx5kBk
 
 | Indian curries | Description |
 | --- | --- |
-| Kaju Kurma | List all new or modified files |
+| Kaju Kurma | https://www.youtube.com/watch?v=2GX8Aws_9Us |
 | arvi (chamagaddala pulusu)| https://www.youtube.com/watch?v=gJXj9t5SEQY |
 
 ## 
