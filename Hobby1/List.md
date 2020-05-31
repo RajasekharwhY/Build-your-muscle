@@ -17,3 +17,5 @@ https://www.youtube.com/watch?v=yQlVJAx5kBk
 
 ## arvi (chamagaddala pulusu)
 https://www.youtube.com/watch?v=gJXj9t5SEQY
+
+## Kaju kurma
