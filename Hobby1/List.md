@@ -16,12 +16,13 @@ Mexican rice : Mexican Rice Recipe
 https://www.youtube.com/watch?v=yQlVJAx5kBk
 
 
-| Indian Kurmas | Description |
+| Indian curries | Description |
 | --- | --- |
 | Kaju Kurma | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| arvi (chamagaddala pulusu)| https://www.youtube.com/watch?v=gJXj9t5SEQY |
 
-## arvi (chamagaddala pulusu)
+## 
+
 
 
 ## Kaju kurma
