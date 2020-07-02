@@ -18,3 +18,48 @@ time travel each commit we made ( each commit has hexa decimal number assigned t
 and we can check the difference (or) what and who has changed in each commit.  
 
 #Git Checkout
+
+Distributed version contorl
+Populat Git based services - GitHub
+
+
+Git tracks changes to source code...
+How the most basic features of git works in practice.
+
+Git is the not only version control in this world. But what makes it so special. 
+
+Git Hub and Git eco system...
+
+Git Init -- 
+   That means put this project Under git,
+   It creates a repository (Storage area) 
+   Forget about the location where it creates for now
+   But it will create some where to store your files
+   In my computer. 
+
+   what repo contains is it contains the snapshot of my    porject 
+
+So next step is to create a snapshot: that we can do in two steps:
+
+ Step 1. We must tell git proejcts which projects to add
+         to the repository  
+         Git add . (Put all the files in the Reporsitory).
+         
+         This step won't or put files on the repository, but 
+         it creates a launch pad (it is also called index in GIT) and add the files to the launch pad. 
+
+Step 2:  We can send the content of the index in to the repository.
+         git commit -m "commit message" 
+
+Now we have just created the first snap shot of the Repsoitory.
+Git Log -> 
+
+Git Status -> It shows the modified files. 
+Next if you modify files 
+git add filename 
+git commit -m "Fix for the check-in"
+
+It creates 2-nd snapshot on the repositoty, The second snap-shot Includes the modified file 
+
+git diff -> difference between two commits  
+
