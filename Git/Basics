@@ -10,3 +10,4 @@
 ## Git Log
 ## Git Status
 ## Git Diff - Difference between two commits  
+   When we create a commit git automatically generates hexadecimal code. 
