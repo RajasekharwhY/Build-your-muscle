@@ -12,6 +12,9 @@
 ## Git Diff - Difference between two commits  
    When we create a commit git automatically generates hexadecimal code. 
 
-## Time travle to understand the changes made in each snapshot
+## Time travel to understand the changes made in each snapshot 
+Since the repository maintains the snapshot of each Commit, we can 
+time travel each commit we made ( each commit has hexa decimal number assigned to it)
+and we can check the difference (or) what and who has changed in each commit.  
 
 #Git Checkout
