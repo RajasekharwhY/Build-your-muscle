@@ -1,1 +1,4 @@
 
+## Overview of Git Branching
+Git version control features a branching model to track code changes. A branch is a named reference to a particular sequence of commits.
+All Git repositories have a base branch named master. By default, when you create a commit in your repository, the master branch is updated with the new commit.
