@@ -6,7 +6,7 @@ Connecting an Application to a Database
 Guided Exercise: Connecting to a Database
 
 Trouble shooting :
-
+------------------
 Build config resource : contains build information
 On the resources tab you can see if #build is failed or success 
 if build is failed you can see log files to see what is the reason for build failure. 
@@ -15,4 +15,18 @@ other type of resource is deployment:
 Another type of errors some times, build and deployement succesul, but 
 pod level errors can happen. 
 
+For advanced trouble shooting a console in the pod is available to run the commands.
+(1) How to Debug Your Node.js Application on OpenShift with Chrome DevTools at 
+https://developers.redhat.com/blog/2018/05/15/debug-your-node-js-application-on-openshift-with-chrome-devtools/
+(2) Remote Debugging of Java Applications on OpenShift at 
+https://servicesblog.redhat.com/2019/03/06/remote-debugging-of-java-applications-on-openshift/
+
+REFERENCES:
+-----------
+For more information on events, refer to the Viewing system event information in an OpenShift Container Platform 
+cluster chapter in the Configuring and managing nodes in OpenShift Container Platform guide at
+https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html-single/nodes/index#nodes-containers-events
+
+For more information, refer to the Performing and interacting with builds in OpenShift Container Platform at 
+https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html-single/builds/index
 
