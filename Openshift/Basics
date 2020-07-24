@@ -24,9 +24,9 @@ https://servicesblog.redhat.com/2019/03/06/remote-debugging-of-java-applications
 REFERENCES:
 -----------
 For more information on events, refer to the Viewing system event information in an OpenShift Container Platform 
-cluster chapter in the Configuring and managing nodes in OpenShift Container Platform guide at
+(1) cluster chapter in the Configuring and managing nodes in OpenShift Container Platform guide at
 https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html-single/nodes/index#nodes-containers-events
 
-For more information, refer to the Performing and interacting with builds in OpenShift Container Platform at 
+(2) For more information, refer to the Performing and interacting with builds in OpenShift Container Platform at 
 https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html-single/builds/index
 
