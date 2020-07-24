@@ -5,6 +5,10 @@ Guided Exercise: Configuring Application Secrets
 Connecting an Application to a Database
 Guided Exercise: Connecting to a Database
 
+Secret resource
+
+build resource and deployment/Pod resource.
+
 Trouble shooting :
 ------------------
 Build config resource : contains build information
