@@ -1,0 +1,18 @@
+Updating an Application
+Guided Exercise: Updating an Application
+Configuring Application Secrets
+Guided Exercise: Configuring Application Secrets
+Connecting an Application to a Database
+Guided Exercise: Connecting to a Database
+
+Trouble shooting :
+
+Build config resource : contains build information
+On the resources tab you can see if #build is failed or success 
+if build is failed you can see log files to see what is the reason for build failure. 
+other type of resource is deployment:
+ like some of the dependencis which are requrired are not there..
+Another type of errors some times, build and deployement succesul, but 
+pod level errors can happen. 
+
+
