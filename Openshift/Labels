@@ -2,3 +2,7 @@
 For example, pods are "tagged" with labels, and then services use label selectors to identify the pods they proxy to. 
 This makes it possible for services to reference groups of pods, 
 even treating pods with potentially different docker containers as related entities.
+
+This is important because those labels can be used as part of your CI/CD process.
+ An upcoming lab will cover using labels for Blue/Green deployments.
+ Labels can also be used for running your apps on specific nodes (e.g. just on SSD nodes or just on east coast nodes).
