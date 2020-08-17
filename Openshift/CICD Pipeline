@@ -1,1 +1,4 @@
 here we see how to integrate with Jenkins build serer.
+
+Select the "From Catalog" button, Select "Template"
+Filter on "Jenkins (Ephemeral)". Then select "Jenkins (Ephemeral)".
