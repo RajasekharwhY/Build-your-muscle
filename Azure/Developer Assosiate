@@ -12,3 +12,15 @@ Total moudles =    42 moudles and 7 sections.
 Max days to finish - 10 days 
 Date of recording         : Sept -29 - 2020
 Max date of completion    : Oct - 10 - 2020 
+
+1. Create serverless apps  
+--Choose the best Azure service to automate your business processes
+--Create serverless logic with Azure Functions
+--Execute an Azure Function with triggers
+--Chain Azure Functions together using input and output bindings
+--Create a long-running serverless workflow with Durable Functions
+--Develop, test, and publish Azure Functions by using Azure Functions Core Tools
+--Develop, test, and deploy an Azure Function with Visual Studio
+--Monitor GitHub events by using a webhook with Azure Functions
+--Enable automatic updates in a web application using Azure Functions and SignalR Service
+--Expose multiple Azure Function apps as a consistent API by using Azure API Management
