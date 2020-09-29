@@ -24,3 +24,31 @@ Max date of completion    : Oct - 10 - 2020
 --Monitor GitHub events by using a webhook with Azure Functions
 --Enable automatic updates in a web application using Azure Functions and SignalR Service
 --Expose multiple Azure Function apps as a consistent API by using Azure API Management
+
+2. Connect your services together
+ --Choose a messaging model in Azure to loosely connect your services
+ --Implement message-based communication workflows with Azure Service Bus
+ --Communicate between applications with Azure Queue storage
+ --Enable reliable messaging for Big Data applications using Azure Event Hubs
+3. Store data in Azure 
+ --Choose a data storage approach in Azure
+ --Create an Azure Storage account
+ --Connect an app to Azure Storage
+ --Secure your Azure Storage account
+ --Store application data with Azure Blob storage
+4. Delploy a website with Azure virtual machine
+--Introduction to Azure virtual machines
+--Create a Linux virtual machine in Azure
+--Create a Windows virtual machine in Azure
+--Build and run a web application with the MEAN stack on an Azure Linux virtual machine
+
+5. Manage resources in Azure
+ --Align requirements with cloud types and service models in Azure
+ --Control Azure services with the CLI
+ --Automate Azure tasks using scripts with PowerShell
+ --Predict costs and optimize spending for Azure
+ --Control and organize Azure resources with Azure Resource Manager
+ --Move Azure resources to another resource group
+6. Deploy a website to Azure with Azure app service 
+
+7. Secure your cloud data 
