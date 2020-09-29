@@ -26,16 +26,20 @@ Max date of completion    : Oct - 10 - 2020
 --Expose multiple Azure Function apps as a consistent API by using Azure API Management
 
 2. Connect your services together
+
  --Choose a messaging model in Azure to loosely connect your services
  --Implement message-based communication workflows with Azure Service Bus
  --Communicate between applications with Azure Queue storage
  --Enable reliable messaging for Big Data applications using Azure Event Hubs
+ 
 3. Store data in Azure 
+
  --Choose a data storage approach in Azure
  --Create an Azure Storage account
  --Connect an app to Azure Storage
  --Secure your Azure Storage account
  --Store application data with Azure Blob storage
+ 
 4. Delploy a website with Azure virtual machine
 --Introduction to Azure virtual machines
 --Create a Linux virtual machine in Azure
@@ -49,6 +53,20 @@ Max date of completion    : Oct - 10 - 2020
  --Predict costs and optimize spending for Azure
  --Control and organize Azure resources with Azure Resource Manager
  --Move Azure resources to another resource group
+ 
 6. Deploy a website to Azure with Azure app service 
-
+ --Prepare your development environment for Azure development
+ --Host a web application with Azure App service
+ --Publish a web app to Azure with Visual Studio
+ --Stage a web app deployment for testing and rollback by using App Service deployment slots
+ --Scale an App Service web app to efficiently meet demand with App Service scale up and scale out
+ --Deploy and run a containerized web app with Azure App Service
+ 
 7. Secure your cloud data 
+ -- Security, responsibility, and trust in Azure
+ -- Top 5 security items to consider before pushing to production
+ -- Configure security policies to manage data
+ -- Secure your Azure Storage account
+ -- Configure and manage secrets in Azure Key Vault
+ -- Secure your Azure resources with role-based access control (RBAC)
+ -- Secure your Azure SQL Database
