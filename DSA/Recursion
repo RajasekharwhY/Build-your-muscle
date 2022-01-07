@@ -34,6 +34,11 @@ what is Base Case ? or terminating condition :
        When the caller has some additional statements to execute after the recursive
        call, then it is not tail recursion. 
        
+       In order or pre-order is tail recursion - Tail recursives are usually faster, 
+       because of modern compilers are optimised for tail recursive solutions. 
+       
+       Post-order is not tail recursive. 
+       
        
        
        
