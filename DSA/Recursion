@@ -1,0 +1,40 @@
+what is Base Case ? or terminating condition : 
+  -- There should be atleast one terminating condition. 
+  
+ normal basic structure of recursion : 
+      -- fun() {
+      
+      // base case or terminating condition 
+      --
+      --
+      recursion call ( fun())- whith change in paramters 
+      
+      }
+      
+      -- Applications of recurssion,
+       -- Dynamic programing 
+       -- Back tracking 
+       -- Devide and conquer ( quick sort, merge sort, merge sort) 
+     Many problems are inherently recursive in nature 
+       -- Tower of henoi
+       -- DFS based traversals ( like in order, pre order, post order ) 
+       Real world example for DFS is -- searching for a file in a computer, 
+       You start from the root folder, and recursvly search in a folder for the file. 
+       
+       For many problems iterative solution is very complex, 
+       and recursive is easy write code. (ease of implementation).
+       
+       Above and meny other are core progrmaing techniques... 
+       
+       What is tail recursion : if the recursion call is the last c
+       call in a recursive function... no more statements after this recursion call
+       that is called tail recursion. That means when the caller has nothing to do 
+       after the call then it is called tail recursion. 
+       
+       When the caller has some additional statements to execute after the recursive
+       call, then it is not tail recursion. 
+       
+       
+       
+       
+       
